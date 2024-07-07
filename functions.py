@@ -19,7 +19,7 @@ def marker_player():
     marker = ''
     
     while marker != "X" and marker !="O":
-        marker = input('Player1, please choose a marker between "X" and "O" : ').upper()
+        marker = input('Player 1, please choose a marker between "X" and "O" : ').upper()
     
     if marker == "X":
         return ('X', 'O')
